@@ -1,0 +1,116 @@
+.first-section-head{
+    background-color: #0a0a2d  !important;
+    color: #fff4f0 !important;
+}
+.first-section-head a {
+    text-decoration:  none !important;
+    color: #fff4f0;
+}
+.first-section-head a:hover{
+    color: #32f8cc;
+}
+.first-section-head:nth-child(1) div:nth-child(1){
+    padding-top: 50px;
+}
+.heading div:nth-child(1){
+    font-size: 55px;
+}
+#all .card{
+    margin-top: 20px;
+    transition: box-shadow 0.2s ease-in-out, transform 0.35s ease-in-out;
+}
+#all .card img{
+    width: 100% !important;
+    height: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+#all .card a{
+    text-decoration:  none !important;
+    color: #0a0a2d !important;
+}
+#all .card a:hover{
+    color: #32f8cc !important;
+}
+#all .heading{
+ font-size: 39px;
+ font-weight: 600;
+ color: #0a0a2d;
+}
+
+#all .card:hover{
+    box-shadow: 0 11px 11px 0 rgba(0, 0, 0,.16);
+    transform: translateY(-5px);
+}
+@media only screen and (max-width: 600px) {
+    .btnnn{
+    display: none !important;
+    }
+    }
+    ul li {
+        list-style: none;
+    }
+    .all::before{
+        content: "";
+        background-image: url(../imges/all.svg) !important;
+        background-repeat: no-repeat;
+        display: block;
+        width: 100px;
+        background-size: contain;
+        height: 90px;
+        margin: 0 auto 12px;
+    }
+    .user-test::before{
+        content: "";
+        background-image: url(../imges/onee\).svg) !important;
+        background-repeat: no-repeat;
+        display: block;
+        width: 100px;
+        background-size: contain;
+        height: 90px;
+        margin: 0 auto 12px;
+    }
+    .product-mangement::before{
+        content: "";
+        background-image: url(../imges/twooo.svg) !important;
+        background-repeat: no-repeat;
+        display: block;
+        width: 100px;
+        background-size: contain;
+        height: 90px;
+        margin: 0 auto 12px;
+    } 
+    .user-ex::before{
+        content: "";
+        background-image: url(../imges/threeeeeeeeee\).svg) !important;
+        background-repeat: no-repeat;
+        display: block;
+        width: 100px;
+        background-size: contain;
+        height: 90px;
+        margin: 0 auto 12px;
+    }
+    .e-commerce::before{
+        content: "";
+        background-image: url(../imges/twooo.svg) !important;
+        background-repeat: no-repeat;
+        display: block;
+        width: 100px;
+        background-size: contain;
+        height: 90px;
+        margin: 0 auto 12px;
+    }
+    .product-up::before{
+        content: "";
+        background-image: url(../imges/threeeeeeeeee\).svg) !important;
+        background-repeat: no-repeat;
+        display: block;
+        width: 100px;
+        background-size: contain;
+        height: 90px;
+        margin: 0 auto 12px;
+    }
+    .active{
+        color: #32f8cc !important;
+    }
+    

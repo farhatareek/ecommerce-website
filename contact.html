@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    
+    <!--nav-->
+    <nav class="navbar   navbar-expand-lg  p-3 container-fluid ">
+        <div class="container-fluid   ">
+        <a class="navbar-brand mr-auto " href="index.html"><img src="/imges/logo-userbrain-full-c1eefaac00bae2e54ac8313a430938c1.svg" alt=""></a>
+        <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon custom-toggler "></span>
+        </button>
+        <div class="collapse  navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  mx-auto me-auto mb-2 mb-lg-0">
+                <li class="nav-item  ">
+                    <a class="nav-link  " aria-current="page" href="index.html">home</a>
+                </li>
+            <li class="nav-item  ">
+                <a class="nav-link  " aria-current="page" href="blog.html">blog</a>
+            </li>
+            <li class="nav-item  ">
+                <a class="nav-link " href="pricing.html">pricing</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link active " href="contact.html">contact</a>
+            </li>
+            <li  class="nav-item container-fluid   dropdown">
+                <a class="nav-link dropdown-toggle"  href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Features
+                </a>
+                <div id="register" class="dropdown-menu   w-100 "  aria-labelledby="navbarDropdown">
+                    <div class="row">
+                <div class=" col-lg-3 col-sm-12">
+                    <h2>Features</h2>
+                    <p>Simple effective features that make life that little bit easier.</p>
+                    <a class="view" href=""> view all userway features</a>
+                </div>
+                <div class="col-lg-3 col-sm-12">
+                    <div class="card" >
+                        <img src="./imges/download (setup).svg" class="card-img-top w-25" alt="...">
+                        <div class="card-body">
+                            <h2>Set Up userway In Minutes</h2>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-12">
+                    <div class="card" >
+                        <img src="./imges/download (accsess).svg" class="card-img-top w-25" alt="...">
+                        <div class="card-body">
+                            <h2>Access 85k+ User Testers</h2>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-12">
+                    <div class="card" >
+                        <img src="./imges/download (invite).svg" class="card-img-top w-25" alt="...">
+                        <div class="card-body">
+                            <h2>Invite Your Own Testers</h2>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <!--secound dropdown row-->
+                <div class="row">
+                    <div class=" col-lg-3 col-sm-0">
+                    </div>
+                    <div class="col-lg-3 col-sm-12">
+                        <div class="card" >
+                            <img src="./imges/download (analyze).svg" class="card-img-top w-25" alt="...">
+                            <div class="card-body">
+                                <h2>Analyze Your User Tests</h2>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-12">
+                        <div class="card" >
+                            <img src="./imges/download (collape).svg" class="card-img-top w-25" alt="...">
+                            <div class="card-body">
+                                <h2>Collaborate With Our Team</h2>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-12">
+                        <div class="card" >
+                            <img src="./imges/download (scedule).svg" class="card-img-top w-25" alt="...">
+                            <div class="card-body">
+                                <h2>Schedule Regular Testing</h2>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </li>
+            </ul>
+            <div class="ml-auto d-flex">
+                <a class="nav-link   login  " href="./login.html" tabindex="-1" >Login</a>
+                <button  class="btn  btn-primary " onclick="myBtn()" type="submit">Start Free Trail</button>
+                </div>
+        </div>
+        
+    </nav>
+
+
+
+
+
+
+
+
+
+    <!-- main body-->
+    <main class="container-fluid">
+    <section class="container-fluid first-section">
+    
+    <div class=" first-child-div text-center col-12 ">
+    <h1 class="fs-1 ">
+        if you have any Questions?
+        <span class=" fw-bolder">We’ve got the answers.</span>
+    </h1>
+    </div>
+    <div>
+        <svg class="svg" viewbox="0 0 100 15">
+            <path fill="#fff" d="M0 30 V12 Q30 17 55 12 T100 11 V30z" />
+            </svg>
+                                </div>
+    </section>
+    
+        <!-- cards group-->
+        <section class="card-sections container">
+        <div class="row row-cols-1 text-center row-cols-md-3 g-4">
+            <div class="col">
+            <div class="card">
+                <img src="./imges/download (1-card).svg" class="card-img-top " alt="...">
+                <div class="card-body">
+                <h5 class="card-title">sales</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <button onclick="myAlert()" class=" btn  btn-primary " id="pushh" type="submit">Start Free Trail</button><br>
+                <button onclick="myAlert()" class="  btnn btn btn-primary " id="pushh" type="submit">book a demo</button>
+                </div>
+            </div>
+            </div>
+            <div class="col">
+            <div class="card">
+                <img src="./imges/download (card-2).svg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">Customer support</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <button onclick="myAlert()" class=" btn  btn-primary " id="pushh" type="submit">Start Free Trail</button><br>
+                <button onclick="myAlert()" class="  btnn btn btn-primary " id="pushh" type="submit">submit a question</button>
+                </div>
+            </div>
+            </div>
+            <div class="col">
+            <div class="card ">
+                <img src="./imges/download (card-2).svg" class="card-img-top text-center" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">Tester support</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                <button onclick="myAlert()" class=" btn  btn-primary " id="pushh" type="submit">Start Free Trail</button><br>
+                <button onclick="myAlert()" class="  btnn btn btn-primary " id="pushh" type="submit">submit a question</button>
+                </div>
+            </div>
+            </div>
+            </div>
+            </section>
+            <!-- questions seection-->
+            <section class="container third text-center">
+            <div  class="row">
+            <div class="col-6">
+                Want to apply to become a tester?
+            </div>
+            <a class="col-6 " href="http://"> Get paid to test ></a>
+            </div>
+            <div  class="row">
+                <div class="col-6 ">
+                    Want to work at Userway
+                </div>
+                <a class="col-6 " href="http://"> View open positions ></a>
+                </div>
+                <div  class="row d-flex">
+                    <div class="col-6 ">
+                        Follow us on:
+                    </div>
+                    <div class="col-6   " >  
+                        <a href="https://www.facebook.com/"> <i class="fa-brands fa-facebook-square"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a> 
+                        <a href="https://twitter.com/i/flow/login"> <i class="fa-brands fa-twitter-square"></i></a>
+                    </div>
+                    </div>
+                    <div class="fs-3 last-child-div">
+                        mailing address
+                        <span> USERWAY</span>
+                        6 OCTOBER
+                        <span>CAIRO</span>
+                    </div>
+            </section>
+    </main>
+
+
+
+<!--footer-->
+    <footer class="container-fluid">
+        <svg class="svg" viewbox="0 0 100 15">
+            <path fill="#0a0a2d" d="M0 30 V12 Q30 17 55 12 T100 11 V30z" />
+            </svg>
+        <div class="container">
+            <img class="main-img" src="./imges/logo-userbrain-full-c1eefaac00bae2e54ac8313a430938c1.svg" alt="">
+            <div class="row">
+            <div class="col-lg-3 col-sm-6  ">
+            <h6>FEATURES</h6>
+            <a href="">Setup</a>
+            <a href="">Tester pool</a>
+            <a href="">Invite your own users</a>
+            <a href="">Analyze your user tests</a>
+            <a href="">Team collaboration</a>
+                </div>
+            <div class="col-lg-3 col-sm-6 ">
+                <h6>PRODUCT</h6>
+                <a href="">About</a>
+                <a href="">Pricing</a>
+                <a href="">Examples</a>
+                <a href="">Careers</a>
+                <a href="">Careers</a>
+            </div>
+            <div class="col-lg-3 col-sm-6 "><h6>FEATURES</h6>
+                <a href="">Setup</a>
+                <a href="">Tester pool</a>
+                <a href="">Invite your own users</a>
+                <a href="">Analyze your user tests</a>
+                <a href="">Team collaboration</a></div>
+            <div class="col-lg-3 col-sm-6 "> <h6>PRODUCT</h6>
+                <a href="">About</a>
+                <a href="">Pricing</a>
+                <a href="">Examples</a>
+                <a href="">Careers</a>
+                <a href="">Careers</a></div>
+                </div>
+                <div class="row secound-row">
+                    <div class="col-lg-6  col-sm-12">
+                        <div class="fs-1">Newsletter</div>
+                        <p>Want simple user testing tips & tricks? Sign up to our newsletter.</p>
+                        <form id="newtask">
+                            <input type="email" placeholder="enter your email" class="form-control p-3" id="exampleInputEmail1"  aria-describedby="emailHelp">
+                            <button class=" form-btn btn-lg m-2    " id="push" type="submit">Start Free Trail</button>
+                        </form>
+                        
+                    </div>
+                    <div class="col-lg-3 last-col col-sm-6">
+                        <div> customers</div><br>
+                        <button class=" form-btn  " onclick="myAlert()"  type="submit">Start Free Trail</button><br>
+                        <a href="">Book a demo</a><br>
+                        <a href="">Customer Help</a><br>
+                        <a href="">Contact Us</a><br>
+                        
+                    </div>
+                    <div class="col-lg-3 last-col col-sm-6">
+                        <div> customers</div><br>
+                        <button class=" form-btn  " onclick="myAlert()" type="submit">Start Free Trail</button><br>
+                        <a href="">Book a demo</a><br>
+                        <a href="">Customer Help</a><br>
+                        <a href="">Contact Us</a><br>
+                    </div>
+                    <hr>
+                </div>
+                <div class="row">
+                <div class="language-icon d-flex justify-content-start col-lg-6 col-sm-12">
+                    <a><i class="fa-solid fa-globe "> english</i></a>
+                    
+                </div>
+                <div class="language-icon d-flex justify-content-lg-end col-sm-12 col-lg-6">
+                    <a href="http://"> <i class="fa-brands fa-facebook-square"></i></a>
+                    <a href="http://"><i class="fa-brands fa-instagram"></i></a> 
+                    <a href="http://"> <i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="http://"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="http://"><i class="fa-brands fa-youtube-square"></i></a>
+                </div>
+                </div>
+                <hr>
+                <div class="row d-flex">
+                    <div class="  justify-content-lg-start col-lg-6 col-sm-12">
+                        © 2022 Userway 
+                    </div>
+                    </div>
+                    </div>
+        </div>
+    </footer>
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/app.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

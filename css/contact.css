@@ -1,0 +1,67 @@
+.first-child-div span::before{
+    content: "\a" !important;
+    white-space: pre !important;
+}
+.first-child-div{
+    padding-top: 150px;
+}
+.first-child-div h1{
+    font-size: 55px !important;
+}
+.secound-section{
+    background-color: #fff !important;
+}
+.card-sections .card{
+background-color: #0a0a2d !important;
+color: #fff4f0 !important;
+border-radius: 10px;
+}
+.card-sections .card img{
+    width: 300px !important;
+    height: 100px !important;
+}
+.btnn{
+    background-color: #fff !important;
+    margin-top: 50px !important;
+    color: #0a0a2d !important;
+    padding: 10px !important;
+    border-radius: 10px;
+    border: none !important;
+}
+@media only screen and (max-width: 600px) {
+    .btn{
+    width: 50% !important;
+    }
+    }
+    @media only screen and (max-width: 600px) {
+        .first-section div h1{
+        font-size: 35px !important;
+        }
+        }
+        .third{
+            margin-top: 100px;
+            color: #0a0a2d;
+            font-size: 30px !important;
+        }
+        .third a{
+            text-decoration:  none;
+            color: #0a0a2d !important;
+        }
+        .third a:hover{
+            color: #32f8cc !important;
+        }
+        .last-child-div span::before{
+        content: "\a" !important;
+        white-space: pre !important;
+        }
+        .last-child-div{
+        margin-top: 100px;
+        }
+        @media only screen and (max-width: 600px) {
+            .third{
+            font-size: 15px !important;
+            }
+            }
+            .card-sections{
+                padding-top: 70px;
+            }
